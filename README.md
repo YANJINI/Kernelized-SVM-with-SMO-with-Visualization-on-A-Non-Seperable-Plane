@@ -18,7 +18,7 @@ Pressing enters makes SMO argorithm find the optimized lamdas (Lagrange multipli
 
 ### RBF Kernel
 
-Plot non-linear data points the same way as above.
+Plot non-linear data points the same way as above. <br />
 ![click to plot](/images/click_to_plot_circle.gif)
 
 Pressing enters makes SMO argorithm find the optimized lamdas (Lagrange multiplier) and show the result. <br />
