@@ -8,7 +8,7 @@ From an inspiration by [kernel SVM demo](https://youtu.be/RwF1esLCG4U?t=2801) on
 ## How it works
 ### Linear Kernel SVM
 
-on the figure that pops up, you click to plot from class 1 and 2 as follows. <br />
+On the figure that pops up, you click to plot from class 1 and 2 as follows. <br />
 
 ![click to plot](/images/click_to_plot_linear.gif)
 
@@ -18,7 +18,7 @@ Pressing enters makes SMO argorithm find the optimized lamdas (Lagrange multipli
 
 ### RBF Kernel
 
-plot non-linear data points the same way as above.
+Plot non-linear data points the same way as above.
 ![click to plot](/images/click_to_plot_circle.gif)
 
 Pressing enters makes SMO argorithm find the optimized lamdas (Lagrange multiplier) and show the result. <br />
