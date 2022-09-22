@@ -8,6 +8,7 @@ class SMO_kernel_SVM:
         self.kernel = {'poly': lambda x, y: np.dot(x, y.T) ** degree,
                        'rbf': lambda x, y: np.exp(-gamma * np.sum((y - x[:, np.newaxis]) ** 2, axis=-1)),
                        'linear': lambda x, y: np.dot(x, y.T)}[kernel]
+        self.kernel_name = kernel
         self.C = C
         self.max_iter = max_iter
 
@@ -89,7 +90,7 @@ class SMO_kernel_SVM:
             self.ax.set_aspect('equal')
             self.ax.set_xlabel('feature 1')
             self.ax.set_ylabel('feature 2')
-            self.ax.set_title(f'kernelized SVM with SMO (C={self.C})')
+            self.ax.set_title(f'{self.kernel_name} SVM with SMO (C={self.C})')
 
             # kernel SVM with SMO plot
             xx, yy = np.meshgrid(np.linspace(*[-5, 5], num=700), np.linspace(*[-5, 5], num=700))
