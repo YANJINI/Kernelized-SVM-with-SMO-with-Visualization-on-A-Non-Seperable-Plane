@@ -26,6 +26,8 @@ Pressing enters makes SMO argorithm find the optimized lamdas (Lagrange multipli
 <br />
 <br />
 
+Dotted lines are where support vectors lie.
+
 ## Setup
 
 ### git clone
