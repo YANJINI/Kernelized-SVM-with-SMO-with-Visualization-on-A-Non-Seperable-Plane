@@ -2,7 +2,7 @@
 Application of kernelized SVM with SMO algorithm to non-linearly seperable 2D case
 
 ## Bacic Idea
-From an inspiration by [kernel SVM demo](https://youtu.be/RwF1esLCG4U?t=2801) on lecture 24 of prof. Kilian Weinberger's [Machine Learning for Intelligent Systems course](https://www.cs.cornell.edu/courses/cs4780/2018fa/) at Cornell University, I have built conceptually same interactive kernel SVM demo in Python with matplotlib event handling. For solving SVM optimization problem, I have used Sequential Minimal Optimization (SMO) algorithm in reference to [this paper regarding SMO algorthm to solve SVM without any libraries (https://www.researchgate.net/publication/344460740_Yet_more_simple_SMO_algorithm). <br />
+From an inspiration by [kernel SVM demo](https://youtu.be/RwF1esLCG4U?t=2801) on lecture 24 of prof. Kilian Weinberger's [Machine Learning for Intelligent Systems course](https://www.cs.cornell.edu/courses/cs4780/2018fa/) at Cornell University, I have built conceptually same interactive kernel SVM demo in Python with matplotlib event handling. For solving SVM optimization problem, I have used Sequential Minimal Optimization (SMO) algorithm in reference to [this paper regarding SMO algorthm to solve SVM without any libraries](https://www.researchgate.net/publication/344460740_Yet_more_simple_SMO_algorithm). <br />
 
 
 ## How it works
