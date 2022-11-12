@@ -1,4 +1,4 @@
-# Kernelized_SVM_with_SMO
+# Kernelized-SVM-with-SMO-with-Visualization-on-A-Nonlinearly-Seperable-Plane
 Application of kernelized Support Vector Machine (SVM) with Sequential Minimal Opimization (SMO) algorithm to non-linearly seperable 2D case
 
 ## Bacic Idea
